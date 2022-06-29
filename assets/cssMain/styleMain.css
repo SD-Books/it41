@@ -11,8 +11,8 @@
 body{
   background-image: url(/images/vintageblack.jpg);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
+  background-attachment: fixed;
+  background-size: auto;
   /* background-color: rgba(22,34,57,0.95); */
 }
 .row{
