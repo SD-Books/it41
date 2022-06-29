@@ -10,7 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     <script src="https://kit.fontawesome.com/64813d7b6b.js" crossorigin="anonymous"></script>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="./assets/cssMain/styleMain.css">
@@ -18,21 +23,22 @@
     <title>Document</title>
 </head>
 <body>
-
-    <section id="head">
+    <!-- <img src="./images/vintageblack.jpg" alt="Snow"> -->
+    
+    <!-- <section id="head">
         <div class="row topHead">
             <div class="col-md-12 col-sm-12 col-xs-12 col-xl-12">
                 <h6 class="text-center">Affiliated to UAE karate federation. Recognised under the General Sports Authority of UAE. </h6>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="menubar">
-        <header class="main-header">
+        <header class="container-fluid main-header p-5">
             <div class="row header">
-                <div class="col-md-12 col-sm-12 col-xs-12 col-xl-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <nav class="navbar navbar-default navbar-expand-lg" align="center">
-                    <img src="./images/logo.png" height="80px" width="300px" alt="">
+                    <img src="./images/logo.png" height="80px" alt="">
                         <div class="navbar-header">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -88,30 +94,30 @@
     </section>
 
     <section id="aboutus">
-        <div class="main-aboutus p-5">
+        <div class="main-aboutus">
             <div class="row aboutusText">
 
+                <div class="aboutusContent col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 sliderAnimate">
+                    <div class="card owl-carousel owl-theme text-center">
+                        <div class="thumbItem">
+                            <img  src="./images/banner1.png" class="card-img-top" height="100%" alt="">
+                        </div>
+
+                        <div class="thumbItem">
+                            <img  src="./images/banner2.png" class="card-img-top" height="100%" alt="">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="aboutusContent col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                    <div class="card card-paragraph">
-                        <h5 class="text-center">
-                            Welcome to<br> <span class="aboutus-h5 text-theme-colored"> DOJODAN </span><br>Martial Arts Club
+                    <div class="card card-paragraph p-5">
+                        <h5 class="aboutus-text">
+                            Welcome to<br> <span class="aboutus-h5 text-theme-colored"> DOJODAN Martial Arts Club</span>
                         </h5>
 
                         <h6>
                             <span class="aboutus-h6 text-theme-colored">DojoDan Academy</span> caters many different a single roof in a view of integrating all different traditional arts without losing its true spirit and value. Karate, Kung Fu, Classic Dance, Yoga, Swimming, Zumba are trained under a single roof with adequate facilities and ambience.
                         </h6>
-                    </div>
-                </div>
-
-                <div class="aboutusContent col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 sliderAnimate">
-                    <div class="card owl-carousel owl-theme text-center">
-                        <div class="thumbItem">
-                            <img  src="./images/banner1.jpg" class="card-img-top" height="100%" alt="">
-                        </div>
-
-                        <div class="thumbItem">
-                            <img  src="./images/banner2.jpg" class="card-img-top" height="100%" alt="">
-                        </div>
                     </div>
                 </div>
 
@@ -124,7 +130,7 @@
             <div class="row programsTitle text-center">
 
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <h2><span class="programs-h2 text-theme-colored">Our Programs</span><br>Join our Martial Arts Club <br>CHILDREN - TEENS - ADULTS - FAMILIES</h2>
+                    <h2><span class="programs-h2">OUR PROGRAMS</span><br>Join our Martial Arts Club <br><span class="programs-h2-detail">CHILDREN - TEENS - ADULTS - FAMILIES</span></h2>
                 </div>
             </div>
         </div>
@@ -134,98 +140,122 @@
         <div class="main-programs-images container-fluid p-5">
             <div class="row programs-images-content">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/karate.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">KARATE </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">KARATE </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/kungfu.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">KUNG FU </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">KUNG FU </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/kickboxing.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">KICK BOXING </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">KICK BOXING </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/finearts.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">FINE ARTS </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">FINE ARTS </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/swimming.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">SWIMMING </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">SWIMMING </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/yoga.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">YOGA </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">YOGA </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/dance.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">DANCE </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">DANCE </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                    <div class="card-images text-center">
+                    <div class="card-images zoom">
                         <div class="thumb">
                             <img  src="./images/zumba.png" height="300px" class="card-img-top" alt="">
                         </div>
-                        <h5 class="">
-                            <a href="./main/karateClass.html"><span class="text-theme-colored">ZUMBA </span></a>
-                        </h5>
-                        <div class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></div>
+
+                        <div class="program-bottom">
+                            <h5 class="program-title">
+                                <a href="./main/karateClass.html"><span class="text-program-title">ZUMBA </span></a>
+                            </h5>
+                            <p class="class-date"><b>Daily : <i class="fa fa-clock-o"></i> 09:00-12:00 pm</b></p>
+                        </div>
                     </div>
                 </div>
 
@@ -241,29 +271,29 @@
         <footer class="main-footer p-3">
             <div class="row footer">
 
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <div class="address" align="center">
                         <h6>DOJODAN MARTIAL ARTS CLUB</h6>
                         <p class="addressdetails">CBD21, Shop No.5, Universal Apartments,<br> International City, Dubai, UAE</p>
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <div class="address" align="center">
                         <p> <i class="fa fa-globe"></i> <a class="contactdetails" href="#">www.dojodanmartialarts.com</a> </p>
                         <p> <i class="fa fa-envelope-o"></i> <a class="contactdetails" href="#">dojodanmac@gmail.com</a> </p>
-                        <p> <i class="fa fa-phone"></i> <a class="contactdetails contactdetailsno" href="tel:0544729411">054 4729411</a> </p>
+                        <div class="zoom"><p> <i class="fa fa-phone"></i> <a class="contactdetails contactdetailsno" href="tel:0544729411">054 4729411</a> </p></div>
                     </div>
                 </div>
                     
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <div class="address" align="center">
                         <p class="time-title">Working Hours <br>
                             <span> Sunday - Saturday:&nbsp; 9.00 am - 12.00 pm  </span>
                         </p>
 
                         <h5 class="social-title mb-10">Connect With Us</h5>
-                        <p><a href="#"><i class="fa fa-facebook"></i></a> Facebook &nbsp; &nbsp; <a href="#"><i class="fa fa-instagram"></i></a> Instagram</p>
+                        <p><a href="#"><i class="fa fa-facebook"></i></a>  &nbsp; &nbsp; &nbsp; <a href="#"><i class="fa fa-instagram"></i></a> </p>
                     </div>
                 </div>
 
